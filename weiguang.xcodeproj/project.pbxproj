@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3A7F84E91C118BA2009BB05A /* InformationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A7F84E81C118BA2009BB05A /* InformationViewController.m */; settings = {ASSET_TAGS = (); }; };
+		3A7F84ED1C118C7C009BB05A /* AroundViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A7F84EC1C118C7C009BB05A /* AroundViewController.m */; settings = {ASSET_TAGS = (); }; };
+		3A7F84F11C118CE4009BB05A /* RecordViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A7F84F01C118CE4009BB05A /* RecordViewController.m */; settings = {ASSET_TAGS = (); }; };
+		3A7F84F51C118D93009BB05A /* DiscoveryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A7F84F41C118D93009BB05A /* DiscoveryViewController.m */; settings = {ASSET_TAGS = (); }; };
+		3A7F84F91C118DD8009BB05A /* MoreViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A7F84F81C118DD8009BB05A /* MoreViewController.m */; settings = {ASSET_TAGS = (); }; };
+		3A7F84FE1C1193DD009BB05A /* UIView+extra.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A7F84FD1C1193DD009BB05A /* UIView+extra.m */; settings = {ASSET_TAGS = (); }; };
 		3A9B33141C114DC900F47C86 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A9B33131C114DC900F47C86 /* main.m */; };
 		3A9B33171C114DC900F47C86 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A9B33161C114DC900F47C86 /* AppDelegate.m */; };
 		3A9B331F1C114DC900F47C86 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3A9B331E1C114DC900F47C86 /* Assets.xcassets */; };
@@ -35,6 +41,18 @@
 
 /* Begin PBXFileReference section */
 		0FABFD14EB7841E7009C0A04 /* libPods-weiguang.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-weiguang.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3A7F84E71C118BA2009BB05A /* InformationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InformationViewController.h; sourceTree = "<group>"; };
+		3A7F84E81C118BA2009BB05A /* InformationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InformationViewController.m; sourceTree = "<group>"; };
+		3A7F84EB1C118C7C009BB05A /* AroundViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AroundViewController.h; sourceTree = "<group>"; };
+		3A7F84EC1C118C7C009BB05A /* AroundViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AroundViewController.m; sourceTree = "<group>"; };
+		3A7F84EF1C118CE4009BB05A /* RecordViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecordViewController.h; sourceTree = "<group>"; };
+		3A7F84F01C118CE4009BB05A /* RecordViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecordViewController.m; sourceTree = "<group>"; };
+		3A7F84F31C118D93009BB05A /* DiscoveryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DiscoveryViewController.h; sourceTree = "<group>"; };
+		3A7F84F41C118D93009BB05A /* DiscoveryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DiscoveryViewController.m; sourceTree = "<group>"; };
+		3A7F84F71C118DD8009BB05A /* MoreViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MoreViewController.h; sourceTree = "<group>"; };
+		3A7F84F81C118DD8009BB05A /* MoreViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MoreViewController.m; sourceTree = "<group>"; };
+		3A7F84FC1C1193DD009BB05A /* UIView+extra.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+extra.h"; sourceTree = "<group>"; };
+		3A7F84FD1C1193DD009BB05A /* UIView+extra.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+extra.m"; sourceTree = "<group>"; };
 		3A9B330F1C114DC900F47C86 /* weiguang.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = weiguang.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3A9B33131C114DC900F47C86 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		3A9B33151C114DC900F47C86 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -125,6 +143,8 @@
 		3A7F84E31C118366009BB05A /* View */ = {
 			isa = PBXGroup;
 			children = (
+				3A7F84FC1C1193DD009BB05A /* UIView+extra.h */,
+				3A7F84FD1C1193DD009BB05A /* UIView+extra.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -132,6 +152,7 @@
 		3A7F84E41C118366009BB05A /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
+				3A7F84E61C118B02009BB05A /* Main */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -141,6 +162,63 @@
 			children = (
 			);
 			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		3A7F84E61C118B02009BB05A /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				3A7F84E71C118BA2009BB05A /* InformationViewController.h */,
+				3A7F84E81C118BA2009BB05A /* InformationViewController.m */,
+				3A7F84EB1C118C7C009BB05A /* AroundViewController.h */,
+				3A7F84EC1C118C7C009BB05A /* AroundViewController.m */,
+				3A7F84EF1C118CE4009BB05A /* RecordViewController.h */,
+				3A7F84F01C118CE4009BB05A /* RecordViewController.m */,
+				3A7F84F31C118D93009BB05A /* DiscoveryViewController.h */,
+				3A7F84F41C118D93009BB05A /* DiscoveryViewController.m */,
+				3A7F84F71C118DD8009BB05A /* MoreViewController.h */,
+				3A7F84F81C118DD8009BB05A /* MoreViewController.m */,
+				3A7F84EA1C118C0A009BB05A /* InformationSub */,
+				3A7F84EE1C118CA1009BB05A /* AroundSub */,
+				3A7F84F21C118D15009BB05A /* RecordSub */,
+				3A7F84F61C118DB0009BB05A /* DiscoverySub */,
+				3A7F84FA1C118DEE009BB05A /* MoreSub */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		3A7F84EA1C118C0A009BB05A /* InformationSub */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = InformationSub;
+			sourceTree = "<group>";
+		};
+		3A7F84EE1C118CA1009BB05A /* AroundSub */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = AroundSub;
+			sourceTree = "<group>";
+		};
+		3A7F84F21C118D15009BB05A /* RecordSub */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = RecordSub;
+			sourceTree = "<group>";
+		};
+		3A7F84F61C118DB0009BB05A /* DiscoverySub */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = DiscoverySub;
+			sourceTree = "<group>";
+		};
+		3A7F84FA1C118DEE009BB05A /* MoreSub */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = MoreSub;
 			sourceTree = "<group>";
 		};
 		3A9B33061C114DC900F47C86 = {
@@ -408,8 +486,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3A7F84E91C118BA2009BB05A /* InformationViewController.m in Sources */,
+				3A7F84FE1C1193DD009BB05A /* UIView+extra.m in Sources */,
+				3A7F84ED1C118C7C009BB05A /* AroundViewController.m in Sources */,
 				3A9B33171C114DC900F47C86 /* AppDelegate.m in Sources */,
+				3A7F84F51C118D93009BB05A /* DiscoveryViewController.m in Sources */,
 				3A9B33141C114DC900F47C86 /* main.m in Sources */,
+				3A7F84F91C118DD8009BB05A /* MoreViewController.m in Sources */,
+				3A7F84F11C118CE4009BB05A /* RecordViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

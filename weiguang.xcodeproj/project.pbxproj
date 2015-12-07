@@ -7,18 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3A36DC191C15937400687693 /* PersonalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A36DC181C15937400687693 /* PersonalViewController.m */; settings = {ASSET_TAGS = (); }; };
+		3A36DC201C15949800687693 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A36DC1F1C15949800687693 /* HomeViewController.m */; settings = {ASSET_TAGS = (); }; };
+		3A36DC261C15B76200687693 /* UIViewController+Title.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A36DC251C15B76200687693 /* UIViewController+Title.m */; settings = {ASSET_TAGS = (); }; };
 		3A7F84E91C118BA2009BB05A /* InformationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A7F84E81C118BA2009BB05A /* InformationViewController.m */; settings = {ASSET_TAGS = (); }; };
 		3A7F84ED1C118C7C009BB05A /* AroundViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A7F84EC1C118C7C009BB05A /* AroundViewController.m */; settings = {ASSET_TAGS = (); }; };
 		3A7F84F11C118CE4009BB05A /* RecordViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A7F84F01C118CE4009BB05A /* RecordViewController.m */; settings = {ASSET_TAGS = (); }; };
 		3A7F84F51C118D93009BB05A /* DiscoveryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A7F84F41C118D93009BB05A /* DiscoveryViewController.m */; settings = {ASSET_TAGS = (); }; };
 		3A7F84F91C118DD8009BB05A /* MoreViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A7F84F81C118DD8009BB05A /* MoreViewController.m */; settings = {ASSET_TAGS = (); }; };
 		3A7F84FE1C1193DD009BB05A /* UIView+extra.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A7F84FD1C1193DD009BB05A /* UIView+extra.m */; settings = {ASSET_TAGS = (); }; };
+		3A7F85021C11A40E009BB05A /* NSObject+Parse.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A7F85011C11A40E009BB05A /* NSObject+Parse.m */; settings = {ASSET_TAGS = (); }; };
 		3A9B33141C114DC900F47C86 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A9B33131C114DC900F47C86 /* main.m */; };
 		3A9B33171C114DC900F47C86 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A9B33161C114DC900F47C86 /* AppDelegate.m */; };
 		3A9B331F1C114DC900F47C86 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3A9B331E1C114DC900F47C86 /* Assets.xcassets */; };
 		3A9B33221C114DC900F47C86 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A9B33201C114DC900F47C86 /* LaunchScreen.storyboard */; };
 		3A9B332D1C114DC900F47C86 /* weiguangTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A9B332C1C114DC900F47C86 /* weiguangTests.m */; };
 		3A9B33381C114DC900F47C86 /* weiguangUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A9B33371C114DC900F47C86 /* weiguangUITests.m */; };
+		3ACCAC031C155C0B00867313 /* LeftSlideViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3ACCAC021C155C0B00867313 /* LeftSlideViewController.m */; settings = {ASSET_TAGS = (); }; };
 		F665369F2CEEA044C1C04C64 /* libPods-weiguang.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0FABFD14EB7841E7009C0A04 /* libPods-weiguang.a */; };
 /* End PBXBuildFile section */
 
@@ -41,6 +46,12 @@
 
 /* Begin PBXFileReference section */
 		0FABFD14EB7841E7009C0A04 /* libPods-weiguang.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-weiguang.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3A36DC171C15937400687693 /* PersonalViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PersonalViewController.h; sourceTree = "<group>"; };
+		3A36DC181C15937400687693 /* PersonalViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PersonalViewController.m; sourceTree = "<group>"; };
+		3A36DC1E1C15949800687693 /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		3A36DC1F1C15949800687693 /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		3A36DC241C15B76200687693 /* UIViewController+Title.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+Title.h"; sourceTree = "<group>"; };
+		3A36DC251C15B76200687693 /* UIViewController+Title.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+Title.m"; sourceTree = "<group>"; };
 		3A7F84E71C118BA2009BB05A /* InformationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InformationViewController.h; sourceTree = "<group>"; };
 		3A7F84E81C118BA2009BB05A /* InformationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InformationViewController.m; sourceTree = "<group>"; };
 		3A7F84EB1C118C7C009BB05A /* AroundViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AroundViewController.h; sourceTree = "<group>"; };
@@ -53,6 +64,8 @@
 		3A7F84F81C118DD8009BB05A /* MoreViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MoreViewController.m; sourceTree = "<group>"; };
 		3A7F84FC1C1193DD009BB05A /* UIView+extra.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+extra.h"; sourceTree = "<group>"; };
 		3A7F84FD1C1193DD009BB05A /* UIView+extra.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+extra.m"; sourceTree = "<group>"; };
+		3A7F85001C11A40E009BB05A /* NSObject+Parse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Parse.h"; sourceTree = "<group>"; };
+		3A7F85011C11A40E009BB05A /* NSObject+Parse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Parse.m"; sourceTree = "<group>"; };
 		3A9B330F1C114DC900F47C86 /* weiguang.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = weiguang.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3A9B33131C114DC900F47C86 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		3A9B33151C114DC900F47C86 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -66,6 +79,8 @@
 		3A9B33331C114DC900F47C86 /* weiguangUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = weiguangUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3A9B33371C114DC900F47C86 /* weiguangUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = weiguangUITests.m; sourceTree = "<group>"; };
 		3A9B33391C114DC900F47C86 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3ACCAC011C155C0B00867313 /* LeftSlideViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeftSlideViewController.h; sourceTree = "<group>"; };
+		3ACCAC021C155C0B00867313 /* LeftSlideViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeftSlideViewController.m; sourceTree = "<group>"; };
 		A17E13283F859855EF37ED33 /* Pods-weiguang.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-weiguang.debug.xcconfig"; path = "Pods/Target Support Files/Pods-weiguang/Pods-weiguang.debug.xcconfig"; sourceTree = "<group>"; };
 		C2626335F970B88C4C4C36CB /* Pods-weiguang.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-weiguang.release.xcconfig"; path = "Pods/Target Support Files/Pods-weiguang/Pods-weiguang.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -96,6 +111,13 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3A36DC1A1C15938200687693 /* PersonalSub */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = PersonalSub;
+			sourceTree = "<group>";
+		};
 		3A7F84DC1C118203009BB05A /* Resource */ = {
 			isa = PBXGroup;
 			children = (
@@ -129,6 +151,7 @@
 		3A7F84E11C118366009BB05A /* Util */ = {
 			isa = PBXGroup;
 			children = (
+				3A7F84FF1C11A354009BB05A /* Category */,
 			);
 			path = Util;
 			sourceTree = "<group>";
@@ -152,6 +175,13 @@
 		3A7F84E41C118366009BB05A /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
+				3ACCAC011C155C0B00867313 /* LeftSlideViewController.h */,
+				3ACCAC021C155C0B00867313 /* LeftSlideViewController.m */,
+				3A36DC171C15937400687693 /* PersonalViewController.h */,
+				3A36DC181C15937400687693 /* PersonalViewController.m */,
+				3A36DC1A1C15938200687693 /* PersonalSub */,
+				3A36DC1E1C15949800687693 /* HomeViewController.h */,
+				3A36DC1F1C15949800687693 /* HomeViewController.m */,
 				3A7F84E61C118B02009BB05A /* Main */,
 			);
 			path = ViewController;
@@ -219,6 +249,17 @@
 			children = (
 			);
 			path = MoreSub;
+			sourceTree = "<group>";
+		};
+		3A7F84FF1C11A354009BB05A /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				3A7F85001C11A40E009BB05A /* NSObject+Parse.h */,
+				3A7F85011C11A40E009BB05A /* NSObject+Parse.m */,
+				3A36DC241C15B76200687693 /* UIViewController+Title.h */,
+				3A36DC251C15B76200687693 /* UIViewController+Title.m */,
+			);
+			path = Category;
 			sourceTree = "<group>";
 		};
 		3A9B33061C114DC900F47C86 = {
@@ -487,13 +528,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				3A7F84E91C118BA2009BB05A /* InformationViewController.m in Sources */,
+				3ACCAC031C155C0B00867313 /* LeftSlideViewController.m in Sources */,
 				3A7F84FE1C1193DD009BB05A /* UIView+extra.m in Sources */,
 				3A7F84ED1C118C7C009BB05A /* AroundViewController.m in Sources */,
 				3A9B33171C114DC900F47C86 /* AppDelegate.m in Sources */,
+				3A36DC261C15B76200687693 /* UIViewController+Title.m in Sources */,
 				3A7F84F51C118D93009BB05A /* DiscoveryViewController.m in Sources */,
 				3A9B33141C114DC900F47C86 /* main.m in Sources */,
+				3A7F85021C11A40E009BB05A /* NSObject+Parse.m in Sources */,
 				3A7F84F91C118DD8009BB05A /* MoreViewController.m in Sources */,
 				3A7F84F11C118CE4009BB05A /* RecordViewController.m in Sources */,
+				3A36DC191C15937400687693 /* PersonalViewController.m in Sources */,
+				3A36DC201C15949800687693 /* HomeViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -626,6 +672,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = weiguang/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = yixiaojichunqiu.weiguang;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -638,6 +685,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = weiguang/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = yixiaojichunqiu.weiguang;
 				PRODUCT_NAME = "$(TARGET_NAME)";

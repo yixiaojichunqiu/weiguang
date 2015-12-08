@@ -22,8 +22,8 @@
     [self.window makeKeyAndVisible];
     PersonalViewController* personal = [[PersonalViewController alloc] init];
     HomeViewController* home = [[HomeViewController alloc] init];
-    LeftSlideViewController* leftSlide = [[LeftSlideViewController alloc] initWithLeftView:personal andMainView:home];
-    self.window.rootViewController = leftSlide;
+    self.leftSlide = [[LeftSlideViewController alloc] initWithLeftView:personal andMainView:home];
+    self.window.rootViewController = self.leftSlide;
     return YES;
 }
 

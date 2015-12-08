@@ -13,7 +13,8 @@
 #import "DiscoveryViewController.h"
 #import "MoreViewController.h"
 #import "UIViewController+Title.h"
-
+#import "UIButton+navi.h"
+#import "AppDelegate.h"
 @interface HomeViewController ()
 
 @end
@@ -22,15 +23,40 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    InformationViewController* vone = [InformationViewController letTitle:@"咨询" andNormalImageName:@"tab_infomation_normal" andSelectedImageName:@"tab_infomation_selected"];
+    AroundViewController* vtwo = [AroundViewController letTitle:@"周边" andNormalImageName:@"tab_video_normal"
+        andSelectedImageName:@"tab_video_selected"];
+    RecordViewController* vthree = [RecordViewController letTitle:@"记录" andNormalImageName:@"tab_heros_normal"
+        andSelectedImageName:@"tab_heros_selected"];
+    DiscoveryViewController* vfour = [DiscoveryViewController letTitle:@"发现" andNormalImageName:@"tab_community_normal" andSelectedImageName:@"tab_community_selected"];
+    MoreViewController* vfive = [MoreViewController letTitle:@"更多" andNormalImageName:@"tab_more_normal"
+        andSelectedImageName:@"tab_more_selected"];
+    
     self.viewControllers = @[
-        [[UINavigationController alloc] initWithRootViewController:[InformationViewController letTitle:@"咨询" andNormalImageName:@"" andSelectedImageName:@""]],
-        [[UINavigationController alloc] initWithRootViewController:[AroundViewController new]],
-        [[UINavigationController alloc] initWithRootViewController:[RecordViewController new]],
-        [[UINavigationController alloc] initWithRootViewController:[DiscoveryViewController new]],
-        [[UINavigationController alloc] initWithRootViewController:[MoreViewController new]]
-        ];
+        [[UINavigationController alloc] initWithRootViewController:vone],
+        [[UINavigationController alloc] initWithRootViewController:vtwo],
+        [[UINavigationController alloc] initWithRootViewController:vthree],
+        [[UINavigationController alloc] initWithRootViewController:vfour],
+        [[UINavigationController alloc] initWithRootViewController:vfive]];
+    
+    NSArray* vall = @[vone, vtwo, vthree, vfour, vfive];
+    for (UIViewController* uiobj in vall) {
+        uiobj.navigationItem.leftBarButtonItem=[[UIBarButtonItem alloc] initWithCustomView:[UIButton buttonInNaviwithTarget:self withAction:@selector(openorcloseleftlist)]];    }
     //[self customNavigationBar];
-    //[self customTabbar];
+    [self customTabbar];
+}
+
+-(void)openorcloseleftlist
+{
+    AppDelegate *tempappdelegate=(AppDelegate*)[[UIApplication sharedApplication]delegate];
+    //两个开关的方法
+    if (tempappdelegate.leftSlide.closed) {
+        [tempappdelegate.leftSlide openLeftView];
+    }
+    else
+    {
+        [tempappdelegate.leftSlide closeLeftView];
+    }
 }
 
 - (void)didReceiveMemoryWarning {

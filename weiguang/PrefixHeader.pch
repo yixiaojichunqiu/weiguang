@@ -13,5 +13,6 @@
 // You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
 #define thisScreenWidth     [[UIScreen mainScreen] bounds].size.width
 #define thisScreenHeight    [[UIScreen mainScreen] bounds].size.height
+#define kRGBColor(R,G,B)        [UIColor colorWithRed:R/255.0 green:G/255.0 blue:B/255.0 alpha:1.0]
 
 #endif /* PrefixHeader_pch */

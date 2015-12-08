@@ -42,7 +42,7 @@
     NSArray* vall = @[vone, vtwo, vthree, vfour, vfive];
     for (UIViewController* uiobj in vall) {
         uiobj.navigationItem.leftBarButtonItem=[[UIBarButtonItem alloc] initWithCustomView:[UIButton buttonInNaviwithTarget:self withAction:@selector(openorcloseleftlist)]];    }
-    //[self customNavigationBar];
+    [self customNavigationBar];
     [self customTabbar];
 }
 
@@ -74,10 +74,10 @@
 }
 */
 
--(void)customNavigationBar{
+- (void)customNavigationBar{
     //navi背景色
-    [[UINavigationBar appearance] setBarTintColor:[UIColor blackColor]];//1
-    [[UINavigationBar appearance] setBarStyle:UIBarStyleBlack];//1
+    [[UINavigationBar appearance] setBarTintColor:kRGBColor(70, 133, 255)];//1
+    [[UINavigationBar appearance] setBarStyle:UIBarStyleDefault];//1
     //设置左右按钮上的文字颜色
     [[UINavigationBar appearance]setTintColor:[UIColor whiteColor]];//1
     //返回按钮样式
@@ -85,7 +85,7 @@
     [[UINavigationBar appearance]setBackIndicatorTransitionMaskImage:[UIImage imageNamed:@"back_btn"]];
 }
 
--(void)customTabbar{
+- (void)customTabbar{
     //背景图
     [[UITabBar appearance]setBackgroundImage:[UIImage imageNamed:@"appcoda-logo"]];
     //设置每一项被选中时的背景图

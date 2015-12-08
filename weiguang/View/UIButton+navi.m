@@ -13,7 +13,7 @@
 +(UIButton *)buttonInNaviwithTarget:(id)target withAction:(SEL)action
 {
     UIButton *menubtn=[UIButton buttonWithType:UIButtonTypeCustom];
-    menubtn.frame=CGRectMake(0, 0, 20, 18);
+    menubtn.frame=CGRectMake(0, 6, 23, 21);
     [menubtn setBackgroundImage:[UIImage imageNamed:@"menu"] forState:UIControlStateNormal];
     [menubtn addTarget:target action:action forControlEvents:UIControlEventTouchUpInside];
     return menubtn;
